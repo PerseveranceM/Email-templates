@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Template</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 10px;
+      }
+
+      .wrapper {
+        border: 3px solid black;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      header {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .logo img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        margin-right: 15px;
+      }
+
+      .intro {
+        font-weight: 700;
+        font-size: 2rem;
+      }
+
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+        margin: 20px 0;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #5a5959;
+        padding: 0 16px;
+      }
+
+      .banner {
+        margin: 20px auto;
+        max-width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        background: #f9f9f9;
+      }
+
+      .banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .banner h2 {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .banner a {
+        display: block;
+        width: max-content;
+        margin: 15px auto 20px;
+        padding: 10px 20px;
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      .banner a:hover {
+        background-color: darkorange;
+      }
+
+      table {
+        width: 90%;
+        margin: 30px auto;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 16px;
+        border: 1px solid #ccc;
+        text-align: center;
+      }
+
+      th {
+        background-color: #f0f0f0;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        padding: 30px 10px;
+        text-align: center;
+        font-size: 1.2rem;
+      }
+
+      footer i {
+        font-size: 1.5rem;
+        margin: 0 10px;
+        cursor: pointer;
+      }
+
+      /* Responsive design */
+      @media (max-width: 768px) {
+        .intro {
+          font-size: 1.5rem;
+          text-align: center;
+          margin-top: 10px;
+        }
+
+        header {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        table,
+        th,
+        td {
+          font-size: 0.95rem;
+        }
+
+        .banner h2 {
+          font-size: 1.3rem;
+        }
+
+        .banner a {
+          font-size: 1rem;
+          padding: 8px 16px;
+        }
+
+        footer {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="logo">
+          <img src="./images/chess-logo.jpg" alt="Chess Masters Logo" />
+        </div>
+        <div class="intro">Chess Masters</div>
+      </header>
+
+      <div class="content">
+        <h1>Elevate Your Chess Game This Month</h1>
+        <p>Dear Chess Enthusiast,</p>
+        <p>
+          We're excited to bring you the latest updates from the world of chess.
+          This month features exciting tournaments, new learning resources, and
+          special offers exclusively for our members.
+        </p>
+
+        <div class="banner">
+          <img
+            src="./images/chess banner.jpg"
+            alt="International Tournament Banner"
+          />
+          <h2>International Masters Tournament</h2>
+          <p>
+            Join us for our live coverage of the International Masters
+            Tournament starting next week. Watch grandmasters compete for the
+            championship title.
+          </p>
+          <a href="#">View Tournament Details</a>
+        </div>
+
+        <table>
+          <tr>
+            <th>New Strategy Course</th>
+            <th>Weekend Chess Club</th>
+          </tr>
+          <tr>
+            <td>
+              Master the Sicilian Defense with our new comprehensive course
+              taught by Grandmaster Sarah Chen.
+            </td>
+            <td>
+              Join our online weekend chess club and play with members from
+              around the world every Saturday.
+            </td>
+          </tr>
+        </table>
+
+        <p>We look forward to seeing you on the board!</p>
+        <p>Checkmate,</p>
+        <p>The Chess Masters Team</p>
+      </div>
+
+      <footer>
+        <div class="social">
+          <i class="ri-facebook-fill" title="Facebook"></i>
+          <i class="ri-twitter-x-line" title="Twitter / X"></i>
+          <i class="ri-instagram-line" title="Instagram"></i>
+          <p>&copy; 2025 Perseverance. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

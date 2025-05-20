@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Template</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style type="text/css">
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+      header {
+        width: 100%;
+        height: 100%;
+        padding: 4%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3%;
+        overflow: hidden;
+        border-radius: 2% 2% 0 0;
+      }
+      .logo {
+        margin-right: 2vh;
+      }
+
+      .logo img {
+        border-radius: 50%;
+      }
+      .intro {
+        margin-top: 4%;
+        font-weight: 700;
+        font-size: 30px;
+        color: white;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 800px;
+      }
+
+      .wrapper {
+        border-radius: 2%;
+        border: 3px solid black;
+        max-width: 800px;
+      }
+
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+      }
+
+      p {
+        text-align: justify;
+        padding: 2%;
+        font-size: 2.3vh;
+        color: rgb(90, 89, 89);
+      }
+      .banner {
+        border: 1px solid gray;
+        max-width: 800px;
+        width: 98%;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
+
+      .banner img {
+        max-width: 800px;
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+      }
+      h2 {
+        text-align: center;
+      }
+
+      .banner a {
+        display: inline-block;
+        padding: 5px;
+        margin-bottom: 30px;
+        border: 3px solid orange;
+        text-decoration: none;
+        background-color: orange;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      table,
+      th,
+      td {
+        margin: 4% 4%;
+        border-radius: 5px;
+      }
+
+      th,
+      td {
+        padding: 15px;
+        border: 1px solid lightslategray;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        padding: 50px;
+        text-align: center;
+        font-size: 30px;
+      }
+
+      footer i {
+        cursor: pointer;
+        margin-left: 10%;
+        margin-top: 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="logo">
+          <img
+            src="./images/chess-logo.jpg"
+            alt=""
+            width="80px"
+            height="80px"
+          />
+        </div>
+        <div class="intro">Chess Masters</div>
+      </header>
+      <div class="content">
+        <h1>Elevate Your Chess Game This Month</h1>
+        <p>Dear Chess Enthusiast,</p>
+        <p>
+          We're excited to bring you the latest updates from the world of chess.
+          This month features exciting tournaments, new learning resources, and
+          special offers exclusively for our members
+        </p>
+        <div class="banner">
+          <img src="./images/chess banner.jpg" alt="" />
+          <h2>International Masters Tournament</h2>
+          <p>
+            Join us for our live coverage of the International Masters
+            Tournament starting next week. Watch grandmasters compete for the
+            championship title.
+          </p>
+          <a href="#">View Tournament Details</a>
+        </div>
+        <table>
+          <tr bgcolor="lightgrey">
+            <th>New Strategy Course</th>
+            <th>Weekend Chess Club</th>
+          </tr>
+          <tr align="center">
+            <td>
+              Master the Sicilian Defense with our new comprehensive course
+              taught by Grandmaster Sarah Chen.
+            </td>
+            <td>
+              Join our online weekend chess club and play with members from
+              around the world every Saturday.
+            </td>
+          </tr>
+        </table>
+        <p>We look forward to seeing you on the board!</p>
+        <p>Checkmate,</p>
+        <p>The Chess Masters Team</p>
+      </div>
+      <footer>
+        <div class="social">
+          <i class="ri-facebook-fill"></i>
+          <i class="ri-twitter-x-line"></i>
+          <i class="ri-instagram-line"></i><br />
+          <p>&copy Perseverance all rights reserved</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
